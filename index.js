@@ -21,7 +21,6 @@ module.exports = {
     },
     "plugins": [
       "import",
-      "babel",
       "prettier"
     ],
     "rules": {
