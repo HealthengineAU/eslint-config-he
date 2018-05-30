@@ -21,7 +21,6 @@ module.exports = {
     },
     "plugins": [
       "import",
-      "react",
       "babel",
       "prettier"
     ],
