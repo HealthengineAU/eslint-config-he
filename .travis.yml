@@ -10,7 +10,7 @@ deploy:
     api_key:
       secure: Srf53BKj0RaIrOTkhiI5wwGEgf1YZ/RIxvTfd3lYpJrPa0ooGSIdVlniwhLR7aAq+y8PyCrW/J2rdR/Z0uihSJsz1YDDxMdHv2RUIhI/IiV+aOU/DQeSMn0f9tyMbom9D2HIzDEiwu7wKLAhJU0i6g2WjUfcFJoUUZqPXJW8jWbeOhfS1Ye9rVzMHIJvDaM4IN0RhjkCNocVjXnavkPX6+nsrwMo8kWOxDHR9uSrWiPHVCQqzOVD3EeoGEg+NuB7rRIYsU3jepkdqvPmZq5ynjX3d6D084m9K11f2Z8rDAexB2bQY1Rd8GvFAT6T6ZLGTIoHicbSMgtlcsmmjgrvRo3Q6CmSeUxJNzirdA/DnaNMQp6VOag1vbdt9yY4Q8ljGnpt5pM2jHZkFXrAkT6ePsaqVFkuOmzRVf4OrxGAp15qna9jwWEc8CrWvFyU2NwvCGhlRz3+t50Z8I+hxhiE1t3U0z4aSaGj6pkBXrr8APbprkuR9UUrpaHt7sKLepXKyBKxV/NerN2XlXsOgQw+Igti8dVixO16Aem9eXKbqfLuzHlFSXIGMOHy1/BHQ4zDJAQxXvcDkGvXCMnlbG3HNzWMhJ3y6UUAqMaqoaTYr4bfHyD9SMr9SFedbnBfYGuVvhfRPNGiB5D1GCa3vu8qi/DGjJhgKGdCt1Mr/QbVMes=
     on:
-      branch: master
+      tags: true
     skip-cleanup: true
 
 notifications:
