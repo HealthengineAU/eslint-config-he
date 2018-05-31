@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-he",
+  "version": "0.0.1",
+  "description": "HealthEngine's coding style standards",
+  "peerDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flowtype": "^2.48.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.8.2"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HealthEngineAU/eslint-config-he.git"
+  },
+  "author": "HealthEngine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HealthEngineAU/eslint-config-he/issues"
+  },
+  "homepage": "https://github.com/HealthEngineAU/eslint-config-he#readme"
+}
