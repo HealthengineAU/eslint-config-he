@@ -31,19 +31,19 @@ module.exports = {
     },
   
     plugins: [
-        // Allows linting type-declarations
-        'flowtype',
+      // Allows linting type-declarations
+      'flowtype',
     ],
   
     rules: {
       // Downgrades these accessibility rules to warnings while we decide on policy
-      "jsx-a11y/interactive-supports-focus": 1,
-      "jsx-a11y/click-events-have-key-events": 1,
-      "jsx-a11y/no-noninteractive-element-interactions": 1,
-      "jsx-a11y/no-static-element-interactions": 1,
-      "jsx-a11y/label-has-for": 1,
-      "jsx-a11y/anchor-is-valid": 1,
-      
+      'jsx-a11y/interactive-supports-focus': 1,
+      'jsx-a11y/click-events-have-key-events': 1,
+      'jsx-a11y/no-noninteractive-element-interactions': 1,
+      'jsx-a11y/no-static-element-interactions': 1,
+      'jsx-a11y/label-has-for': 1,
+      'jsx-a11y/anchor-is-valid': 1,
+  
       // Allows importing from files with explicit '.js' extensions
       'import/extensions': 0,
   
@@ -65,11 +65,11 @@ module.exports = {
       // Downgrades bad array keys to a warning
       'react/no-array-index-key': 1,
   
-      // Downgrades unescaped HTML entity literals to a warning 
+      // Downgrades unescaped HTML entity literals to a warning
       'react/no-unescaped-entities': 1,
   
       // Prevent assigning to arguments, but allow modifying them.
-      "no-param-reassign": [2, {props: false}],
+      'no-param-reassign': [2, { props: false }],
   
       // Applies our code-layout customizations
       'prettier/prettier': [
