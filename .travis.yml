@@ -1,5 +1,8 @@
 language: js
 
+script:
+  - echo "No build process to run for now"
+  
 deploy:
   - provider: npm
     verbose: true
