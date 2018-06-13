@@ -7,8 +7,8 @@ cache:
 
 # Just a placeholder build script for now
 script:
-  - echo "There are currently no moving parts to test"
-
+  - echo "No build process to run for now"
+  
 deploy:
   - provider: npm
     verbose: true
