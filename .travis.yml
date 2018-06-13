@@ -1,5 +1,11 @@
 language: js
 
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+# Just a placeholder build script for now
 script:
   - echo "No build process to run for now"
   
