@@ -18,7 +18,10 @@ module.exports = {
       'plugin:flowtype/recommended',
   
       // Prettier provides opinionated defaults for all code-layout choices
-      'plugin:prettier/recommended',
+      'prettier',
+      'prettier/flowtype',
+      'prettier/react',
+
     ],
   
     // Allows assuming the presence of globals provided by all these environments
@@ -31,8 +34,8 @@ module.exports = {
     },
   
     plugins: [
-      // Allows linting type-declarations
       'flowtype',
+      'prettier',
     ],
   
     rules: {
