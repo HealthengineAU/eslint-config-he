@@ -39,13 +39,13 @@ module.exports = {
     ],
   
     rules: {
-      // Downgrades these accessibility rules to warnings while we decide on policy
-      'jsx-a11y/interactive-supports-focus': 1,
-      'jsx-a11y/click-events-have-key-events': 1,
-      'jsx-a11y/no-noninteractive-element-interactions': 1,
-      'jsx-a11y/no-static-element-interactions': 1,
-      'jsx-a11y/label-has-for': 1,
-      'jsx-a11y/anchor-is-valid': 1,
+      // Disable these accessibility rules until general web accessibility is prioritised
+      'jsx-a11y/interactive-supports-focus': 0,
+      'jsx-a11y/click-events-have-key-events': 0,
+      'jsx-a11y/no-noninteractive-element-interactions': 0,
+      'jsx-a11y/no-static-element-interactions': 0,
+      'jsx-a11y/label-has-for': 0,
+      'jsx-a11y/anchor-is-valid': 0,
   
       // Allows importing from files with explicit '.js' extensions
       'import/extensions': 0,
